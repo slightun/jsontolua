@@ -1,0 +1,93 @@
+[
+	{
+		"Name": "NewRow",
+		"CustomEquipID": 1,
+		"WeaponIDs": [ 10101, 10102, 10201, 10202, 10301, 10302, 10401, 10402, 10499, 90201, 90202 ],
+		"EquipmentIDs": [ 5004, 5005, 5006, 5007 ],
+		"Items": [
+			{
+				"ItemID":
+				{
+					"ID": 4004,
+					"DataType": "ScriptStruct'/Script/DSGame.DSItemTableRow'",
+					"bNativeOnly": true
+				},
+				"Count": 10,
+				"Level": 0
+			},
+			{
+				"ItemID":
+				{
+					"ID": 10003,
+					"DataType": "ScriptStruct'/Script/DSGame.DSItemTableRow'",
+					"bNativeOnly": true
+				},
+				"Count": 100000,
+				"Level": 0
+			},
+			{
+				"ItemID":
+				{
+					"ID": 10004,
+					"DataType": "ScriptStruct'/Script/DSGame.DSItemTableRow'",
+					"bNativeOnly": true
+				},
+				"Count": 100,
+				"Level": 0
+			}
+		],
+		"Skills": [
+			{
+				"SkillID":
+				{
+					"ID": 101,
+					"DataType": "ScriptStruct'/Script/DSGame.DSSkillTableRow'",
+					"bNativeOnly": true
+				},
+				"Level": 1
+			},
+			{
+				"SkillID":
+				{
+					"ID": 102,
+					"DataType": "ScriptStruct'/Script/DSGame.DSSkillTableRow'",
+					"bNativeOnly": true
+				},
+				"Level": 1
+			},
+			{
+				"SkillID":
+				{
+					"ID": 103,
+					"DataType": "ScriptStruct'/Script/DSGame.DSSkillTableRow'",
+					"bNativeOnly": true
+				},
+				"Level": 1
+			},
+			{
+				"SkillID":
+				{
+					"ID": 104,
+					"DataType": "ScriptStruct'/Script/DSGame.DSSkillTableRow'",
+					"bNativeOnly": true
+				},
+				"Level": 1
+			}
+		],
+		"ModelIcon": "/Game/UI/UIIcons/WeaponIcons2/T_Weapon_210.T_Weapon_210",
+		"FreePointAddPValues": [
+			{
+				"PAttributeType": "Constitution",
+				"AttributeValue": 3
+			},
+			{
+				"PAttributeType": "Regenerated",
+				"AttributeValue": 2
+			},
+			{
+				"PAttributeType": "AGI",
+				"AttributeValue": 2
+			}
+		]
+	}
+]
